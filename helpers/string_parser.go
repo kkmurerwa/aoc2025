@@ -7,3 +7,9 @@ func StringToList(input string) []string {
 
 	return words
 }
+
+func CharacterSeparatedStringToList(input string, character string) []string {
+	arr := strings.Split(input, character)
+
+	return arr
+}
